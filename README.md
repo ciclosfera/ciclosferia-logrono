@@ -1,6 +1,6 @@
 # ciclosferia
 
-Repositorio para la web de la feria online de bicis organizada por ciclosfera: https://ciclosferia.com
+Repositorio para la instancia de la ciclosferia de la semana de la bici de Logroño: https://logrono.ciclosferia.com
 
 ## Como funciona
 
