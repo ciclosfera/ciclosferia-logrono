@@ -1,0 +1,279 @@
+% use Mojo::JSON qw/ to_json /;
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ciclosferia - Festival online de ciclismo urbano</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="/static/css/main.css">
+    <link rel="stylesheet" href="/static/custom.css">
+    <noscript><link rel="stylesheet" href="/static/css/noscript.css" /></noscript>
+    <link rel="shortcut icon" type="image/png" href="/static/img/icon-green.png"/>
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta property="og:site_name" content="Ciclosferia"/>
+    <meta property="og:title" content="Ciclosferia - Festival de ciclismo urbano"/>
+    <meta property="og:url" content="https://ciclosferia.com"/>
+    <meta property="og:description" content="Ciclosferia es el primer festival online de ciclismo urbano organizado por ciclosfera.com"/>
+    <meta property="og:image" content="https://ciclosferia.com/static/img/ciclosferia-board.jpg"/>
+    <meta property="og:locale" content="es_ES"/>
+    <meta property="fb:app_id" content="3255657914464482"/>
+  </head>
+  <body class="landing is-preload">
+    <div id="page-wrapper">
+
+      <header id="header" class="alt">
+        <h1><a href="/">Ciclos<span style="color:red;">Feria</span></a></h1>
+        <nav id="nav">
+          <ul>
+            <li class="special">
+              <a href="#menu" class="menuToggle"><span>Menu</span></a>
+              <div id="menu">
+                <ul>
+                  <li><a href="/">Portada</a></li>
+                  <li><a href="/#/schedule">Programa</a></li>
+                  <li>
+                    <a href="/#/sponsors">Expositores</a>
+                    <ul class="sub">
+                    % for my $e ( $expositors->@* ) {
+                      <li><a href="/expo/<%= $e->{slug} %>/"><%= $e->{meta}{name} %></a></li>
+                    % }
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <section id="banner">
+        <div class="inner">
+          <h2>Ciclos<span style="color:red;">Feria</span></h2>
+          <p>Festival online de ciclismo urbano</p>
+          <ul class="actions special upcoming" style="display:none;">
+            <li><a href="/" class="button primary"><span>En vivo</span> <i class="fas fa-play"></i></a></li>
+          </ul>
+          <h3>11-17 Mayo de 2020</h3>
+        </div>
+      </section>
+
+      <section id="/presentation" class="wrapper style1 special">
+        <div class="inner">
+          <header class="major">
+            <h2>El primer festival online de ciclismo urbano</h2>
+            <p>
+              <b class="block">
+                Nuevos tiempos, nuevas formas de moverse y de vivir.
+                Para ellos nace Ciclosferia, festival online de ciclismo urbano: una semana de aprendizaje, colaboración
+                y herramientas. Entrevistas. Charlas. Debates. Una semana para trabajar juntos y rodar en grupo.
+              </b>
+            </p>
+            <p>
+              <b class="block">
+                Ciclosferia nace de Ciclosfera. De ocho años de revista, redes sociales, amigos y locura. Locura por el ciclismo urbano y locura por cambiar el mundo.
+                Algo que merecía una fiesta. Un festival: ese al que te estamos invitando.
+              </b>
+            </p>
+          </header>
+        </div>
+      </section>
+
+      <section id="/venue" class="wrapper style2 special">
+        <div class="inner">
+          <header class="major">
+            <h2>Dónde</h2>
+            <p>
+              Este festival será en Internet. Podrás seguirlo todo en directo desde esta web y nuestras redes sociales (<a href="https://www.youtube.com/channel/UCcgrRFCcdkMqJ8zLSLfGX1Q">Youtube</a>, <a href="https://www.instagram.com/ciclosfera/">Instagram</a>, <a href="https://www.facebook.com/ciclosfera/">Facebook</a> y <a href="https://twitter.com/ciclosfera">Twitter</a>). Todos los eventos podrán verse también bajo demanda, cuando tú quieras y puedas.
+            </p>
+          </header>
+        </div>
+      </section>
+
+      <section id="/schedule" class="wrapper style3 special">
+        <div class="inner">
+          <header class="major">
+            <h2>Programa</h2>
+            <p>
+              Compartimos con vosotros, durante ocho días, historias, debates, propuestas. Una sala en constante movimiento. Como la ciudad. Como tú. ¿Quieres participar?, <a href="mailto:rafa@ciclosfera.com">envianos tu propuesta</a>.
+            </p>
+          </header>
+
+        % for my $day ( $days->@* ) {
+          <table id="schedule">
+            <thead>
+              <tr class="header">
+                <th></th>
+                <th>
+                  <%= ucfirst $day->{date}->day_name %> <%= $day->{date}->day %> de <%= $day->{date}->month_name %>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+            % my $count = 0;
+            % for my $event ( $day->{events}->@* ) {
+              <tr>
+                  <td class="time" data-start="<%= $event->{meta}{start_at}->clone->set_time_zone('UTC')->epoch %>" data-end="<%= $event->{meta}{end_at} && $event->{meta}{end_at}->clone->set_time_zone('UTC')->epoch %>" >
+                % my $time = $event->{meta}{start_at}->hms;
+                % $time =~ s/:00$//;
+                  <%= $time %>
+                % if ( my $end = $event->{meta}{end_at} ) {
+                % $time = $end->hms;
+                % $time =~ s/:00$//;
+                  <br/><%= $time %>
+                % }
+                </td>
+              % if ( $event->{meta}{featured} ) {
+                <td class="room room-venue time-<%= $event->{meta}{duration} || 60 %>">
+              % } else {
+                <td class="room room-<%= $count++ % 2 %> time-<%= $event->{meta}{duration} || 60 %>">
+              % }
+                  <div class="title">
+                    <a href="/event/<%= $event->{slug} %>/"><%= $event->{meta}{title} %></a>
+                  </div>
+                  <div class="author"><%= $event->{meta}{peers} || '' %></div>
+                </td>
+              </tr>
+          % }
+            </tbody>
+          </table>
+        % }
+        </div>
+      </section>
+
+      <section id="/sponsors" class="sponsors style4">
+          <ul>
+          % for my $e ( sort { ($a->{meta}{order}||100) <=> ($b->{meta}{order}||100) } $expositors->@* ) {
+            <li><a href="/expo/<%= $e->{slug} %>/"><img loading="lazy" alt="<%= $e->{meta}{name} %>" src="/static/img/<%= $e->{slug} %>-grey.png"></a></li>
+          % }
+          </ul>
+      </section>
+
+      <footer id="footer">
+        <ul class="icons">
+          <li><a href="https://www.facebook.com/ciclosfera/" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+          <li><a href="https://www.instagram.com/ciclosfera/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+          <li><a href="https://www.youtube.com/channel/UCcgrRFCcdkMqJ8zLSLfGX1Q" class="icon brands fa-youtube"><span class="label">Youtube</span></a></li>
+          <li><a href="https://twitter.com/ciclosfera" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+          <li><a href="mailto:rafa@ciclosfera.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+        </ul>
+        <ul class="copyright">
+          <li>Organizado con amor por <a href="https://ciclosfera.com">Ciclosfera</a> y <a href="https://dosruedasdospedales.com/">Dos ruedas, dos pedales</a></li>
+        </ul>
+      </footer>
+
+    </div>
+    <script src="/static/js/jquery.min.js"></script>
+    <script src="/static/js/jquery.scrollex.min.js"></script>
+    <script src="/static/js/jquery.scrolly.min.js"></script>
+    <script src="/static/js/browser.min.js"></script>
+    <script src="/static/js/breakpoints.min.js"></script>
+    <script src="/static/js/util.js"></script>
+    <script src="/static/js/main.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-165537393-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-165537393-1');
+    </script>
+    <script type="application/ld+json">
+      <%= to_json({
+        '@context'    => "http://schema.org",
+        '@type'       => "Event",
+        name          => 'Ciclosferia - Festival online de ciclismo urbano',
+        url           => "https://ciclosferia.com/",
+        location => {
+            type => "VirtualLocation",
+            url  => "https://ciclosferia.com/",
+        },
+        startDate     => '2020-05-11',
+        endDate       => '2020-05-17',
+        subEvent => $events->map(sub{{
+          '@type'   => "Event",
+          name      => $_->{meta}{title},
+          url       => "https://ciclosferia.com/event/$_->{slug}/",
+          location  => {
+              type => "VirtualLocation",
+              url  => "https://ciclosferia.com/event/$_->{slug}/",
+          },
+          startDate => $_->{meta}{start_at} && $_->{meta}{start_at}->clone->set_time_zone('UTC')->stringify .'Z',
+          endDate   => $_->{meta}{end_at} && $_->{meta}{end_at}->clone->set_time_zone('UTC')->stringify .'Z',
+        }})->to_array
+      }) %>
+    </script>
+    <script>
+        function formatTime(date) {
+          var hours = date.getHours();
+          var minutes = date.getMinutes();
+          hours   = hours < 10 ? '0'+hours : hours;
+          minutes = minutes < 10 ? '0'+minutes : minutes;
+          return hours + ':' + minutes;
+        }
+        function inSeconds(date) { return parseInt( ( date.getTime() - (new Date()).getTime() ) / 1000 ) }
+        function upcomingEvent() {
+            var ev = {};
+            var now = new Date();
+            $('#schedule tr').each(function(i,e){
+                var tr = $(e);
+                var start = tr.find('td.time').first().data('startDate');
+                var end   = tr.find('td.time').first().data('endDate');
+                if ( now >= start && now <= end ) {
+                    var link = tr.find('.title > a')
+                    ev.current = {
+                        url: link.attr('href'),
+                        name: link.text()
+                    };
+                }
+                else if ( now < start && parseInt((start - now) / 1000) < 3600 ) {
+                    var link = tr.find('.title > a')
+                    ev.next = {
+                        url: link.attr('href'),
+                        name: link.text()
+                    };
+                }
+                else if ( now < start ) {
+                    ev.keep = true;
+                }
+            });
+
+            var upcoming = $('ul.upcoming')
+            if ( ev.current ) {
+                upcoming.find('a').attr('href', ev.current.url);
+                upcoming.find('a').attr('title', ev.current.name);
+                upcoming.find('a > span').html('Ver ahora');
+                upcoming.show();
+            }
+            else if ( ev.next ) {
+                upcoming.find('a').attr('href', ev.next.url);
+                upcoming.find('a').attr('title', ev.next.name);
+                upcoming.find('a > span').html('Está por comenzar');
+                upcoming.show();
+            }
+            else {
+                upcoming.hide();
+            }
+
+            if ( ev.keep ) {
+                setTimeout(function(){ upcomingEvent() }, 12000 )
+            }
+        }
+        $(function(){
+            $("td.time").each(function(i,v){
+                var td = $(v);
+                var startDate = new Date( td.data('start') * 1000 );
+                td.data( 'startDate', startDate )
+                var out = formatTime(startDate);
+                if (td.data('end')) {
+                    var endDate = new Date( td.data('end') * 1000 );
+                    out = out + '<br/>' + formatTime(endDate);
+                    td.data( 'endDate', endDate )
+                }
+                td.html(out);
+            });
+
+            // Keep checking to show upcoming/running event/streaming
+            upcomingEvent();
+        });
+    </script>
+  </body>
+</html>
