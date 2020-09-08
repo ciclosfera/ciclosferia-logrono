@@ -1,7 +1,7 @@
 title: Tiendas. Nuevas oportunidades en la nueva normalidad
 description: ¿Cómo ha sido la reapertura de las tiendas después de la pandemia?
-at: 17/09/2020 16:00
-duration: 90
+at: 18/09/2020 16:00
+duration: 75
 peers: 
 youtube: 
 share_img:/static/share/mas-gente-bicicleta.jpg
