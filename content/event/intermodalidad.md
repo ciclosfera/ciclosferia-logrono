@@ -1,6 +1,6 @@
 title: Mesa debate. Intermodalidad
 description:¿Complementas más de un medio de transporte para moverte por la ciudad? 
-at: 11/09/2020 17:30
+at: 11/09/2020 9:30
 duration: 90
 peers: 
 join_url:
