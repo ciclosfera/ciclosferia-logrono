@@ -1,6 +1,6 @@
 title: Movilidad en Logroño, ¿por dónde ir?
 description: Los itinerarios de Logroño para transporte sostenible
-at: 11/09/2020 16:00
+at: 18/09/2020 16:00
 duration: 90
 peers: 
 join_url:
