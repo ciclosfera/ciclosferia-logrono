@@ -1,13 +1,12 @@
-title: Mesa debate. Movilidad escolar.
-description: Es el momento de lograr que la bicicleta sea el medio de transporte más usado. ¿Cómo podemos sumar a más gente?
+title: Mesa debate. Activismo local
+description: ¿Cómo es la movilidad en Logroño?
 at: 16/09/2020 16:00
 duration: 90
-peers: 
+peers: Julio Romero (Logroño en Bici)
 join_url:
 youtube: 
 share_img:/static/share/mas-gente-bicicleta.jpg
 ----
 ### Sobre qué hablaremos en este evento
-Los niños, al ir al colegio, respiran el 20% de la dosis total diaria de contaminación del aire. Una cifra muy alta que se podría reducir drásticamente si, para este trayecto, en vez de transportes de uso individual a motor se utilizasen medios de transporte no contaminantes o el transporte público.
-
-En esta mesa redonda analizaremos cómo se desplazan los logroñeses habitualmente para ir al colegio y qué alternativas se podrían plantear para disminuir la contaminación que tanto afecta a los más pequeños y evitar aglomeraciones de coches en las puertas de los colegios.
+Debate con las principales asociaciones de ciclismo urbano y peatones y usuarios de patinetes para compartir la realidad de la movilidad en Logroño. ¿Qué ventajas y desventajas tiene esta ciudad para moverse?
+Analizaremos la situación con los protagonistas, los ciudadanos de Logroño que día a día se mueven por la ciudad. Te invitamos a seguir en directo este evento online.
