@@ -1,4 +1,4 @@
-title: Mesa redonda. Movilidad ciclista
+title: Mesa debate. Movilidad ciclista
 description: Es el momento de lograr que el uso de la bicicleta aumente en Logroño. ¿Cómo podemos sumar a más gente?
 at: 16/09/2020 11:30
 duration: 90
