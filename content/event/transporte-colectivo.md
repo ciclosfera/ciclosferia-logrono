@@ -1,6 +1,6 @@
 title: Mesa debate. Transporte urbano colectivo
 description: Analizaremos el transporte colectivo de Logroño
-at: 11/09/2020 11:30
+at: 18/09/2020 11:30
 duration: 90
 peers: 
 join_url:
