@@ -29,11 +29,7 @@
                   <li><a href="/">Portada</a></li>
                   <li><a href="/#/schedule">Programa</a></li>
                   <li>
-                    <a href="/#/sponsors">Expositores</a>
-                    <ul class="sub">
-                    % for my $e ( $expositors->@* ) {
-                      <li><a href="/expo/<%= $e->{slug} %>/"><%= $e->{meta}{name} %></a></li>
-                    % }
+                    <a href="/#/sponsors">Colaboradores</a>
                     </ul>
                   </li>
                 </ul>
