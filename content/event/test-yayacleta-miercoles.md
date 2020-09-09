@@ -1,4 +1,4 @@
-title: Un evento de ejemplo
+title: Test de yayacleta
 description: Todos podemos montar en bicicleta, los mayores también.
 at: 16/09/2020 18:00
 duration: 60
