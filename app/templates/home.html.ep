@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Ciclosferia - Festival online de ciclismo urbano</title>
+    <title>Logroño se mueve</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="/static/css/main.css">
@@ -10,11 +10,11 @@
     <noscript><link rel="stylesheet" href="/static/css/noscript.css" /></noscript>
     <link rel="shortcut icon" type="image/png" href="/static/img/icon-green.png"/>
     <meta name="twitter:card" content="summary_large_image"/>
-    <meta property="og:site_name" content="Ciclosferia"/>
-    <meta property="og:title" content="Ciclosferia - Festival de ciclismo urbano"/>
-    <meta property="og:url" content="https://ciclosferia.com"/>
-    <meta property="og:description" content="Ciclosferia es el primer festival online de ciclismo urbano organizado por ciclosfera.com"/>
-    <meta property="og:image" content="https://ciclosferia.com/static/img/ciclosferia-board.jpg"/>
+    <meta property="og:site_name" content="Logroño se mueve"/>
+    <meta property="og:title" content="Logroño se mueve"/>
+    <meta property="og:url" content="https://logrono.semueve.org"/>
+    <meta property="og:description" content="Microfestival online por la semana de la movilidad 2020"/>
+    <meta property="og:image" content="https://logrono.semueve.org/static/img/ciclosferia-board.jpg"/>
     <meta property="og:locale" content="es_ES"/>
     <meta property="fb:app_id" content="3255657914464482"/>
   </head>
@@ -176,21 +176,21 @@ Historias, debates, propuestas... El programa de Se Mueve Logroño contará con 
       <%= to_json({
         '@context'    => "http://schema.org",
         '@type'       => "Event",
-        name          => 'Ciclosferia - Festival online de ciclismo urbano',
-        url           => "https://ciclosferia.com/",
+        name          => 'Logroño se mueve - Microfestival online por la semana de la movilidad 2020',
+        url           => "https://logrono.semueve.org/",
         location => {
             type => "VirtualLocation",
-            url  => "https://ciclosferia.com/",
+            url  => "https://logrono.semueve.org/",
         },
-        startDate     => '2020-05-11',
-        endDate       => '2020-05-17',
+        startDate     => '2020-09-16',
+        endDate       => '2020-09-22',
         subEvent => $events->map(sub{{
           '@type'   => "Event",
           name      => $_->{meta}{title},
-          url       => "https://ciclosferia.com/event/$_->{slug}/",
+          url       => "https://logrono.semueve.org/event/$_->{slug}/",
           location  => {
               type => "VirtualLocation",
-              url  => "https://ciclosferia.com/event/$_->{slug}/",
+              url  => "https://logrono.semueve.org/event/$_->{slug}/",
           },
           startDate => $_->{meta}{start_at} && $_->{meta}{start_at}->clone->set_time_zone('UTC')->stringify .'Z',
           endDate   => $_->{meta}{end_at} && $_->{meta}{end_at}->clone->set_time_zone('UTC')->stringify .'Z',

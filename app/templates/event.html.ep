@@ -2,18 +2,18 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= $meta->{title} %> - Ciclosferia</title>
+    <title><%= $meta->{title} %> - Logroño se mueve</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="/static/css/main.css">
     <noscript><link rel="stylesheet" href="/static/css/noscript.css" /></noscript>
     <link rel="shortcut icon" type="image/png" href="/static/img/icon-green.png"/>
     <meta name="twitter:card" content="summary_large_image"/>
-    <meta property="og:site_name" content="Ciclosferia"/>
-    <meta property="og:title" content="<%= $meta->{title} %> - Ciclosferia">
-    <meta property="og:url" content="https://ciclosferia.com/event/<%= $slug %>/"/>
+    <meta property="og:site_name" content="Logroño se mueve"/>
+    <meta property="og:title" content="<%= $meta->{title} %> - Logroño se mueve">
+    <meta property="og:url" content="https://logrono.semueve.org/event/<%= $slug %>/"/>
     <meta property="og:description" content="<%= $meta->{description} %>"/>
-    <meta property="og:image" content="https://ciclosferia.com<%= $meta->{share_img} || '/static/img/ciclosferia-board.jpg' %>"/>
+    <meta property="og:image" content="https://logrono.semueve.org<%= $meta->{share_img} || '/static/img/ciclosferia-board.jpg' %>"/>
     <meta property="og:locale" content="es_ES"/>
     <meta property="og:type" content="event"/>
     <meta property="event:start_time" content="<%= $meta->{start_at} && $meta->{start_at}->clone->set_time_zone('UTC')->stringify .'Z' %>"/>
@@ -22,7 +22,7 @@
   <body class="is-preload">
     <div id="page-wrapper">
       <header id="header">
-        <h1><a href="/">Ciclos<span style="color:red;">Feria</span></a></h1>
+        <h1><a href="/">Logroño<span style="color:red;">SEMueve</span></a></h1>
         <nav id="nav">
           <ul>
             <li class="special">
@@ -136,23 +136,23 @@
         '@context'    => "http://schema.org",
         '@type'       => "Event",
         name          => $meta->{title},
-        url           => "https://ciclosferia.com/event/$slug/",
+        url           => "https://logrono.semueve.org/event/$slug/",
         location => {
             type => "VirtualLocation",
-            url  => "https://ciclosferia.com/event/$slug/",
+            url  => "https://logrono.semueve.org/event/$slug/",
         },
         startDate   => $meta->{start_at} && $meta->{start_at}->clone->set_time_zone('UTC')->stringify .'Z',
         endDate     => $meta->{end_at} && $meta->{end_at}->clone->set_time_zone('UTC')->stringify .'Z',
         superEvent => {
           '@type'   => "Event",
-          name      => 'Ciclosferia - Festival online de ciclismo urbano',
-          url       => "https://ciclosferia.com/",
+          name      => 'Logroño se mueve - Microfestival online por la semana de la movilidad 2020',
+          url       => "https://logrono.semueve.org/",
           location => {
               type => "VirtualLocation",
-              url  => "https://ciclosferia.com/",
+              url  => "https://logrono.semueve.org/",
           },
-          startDate => '2020-05-11',
-          endDate   => '2020-05-17',
+          startDate => '2020-09-16',
+          endDate   => '2020-09-22',
         }
       }) %>
     </script>
