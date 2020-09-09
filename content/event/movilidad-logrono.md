@@ -1,8 +1,8 @@
 title: Movilidad en Logroño, ¿por dónde ir?
 description: Los itinerarios de Logroño para transporte sostenible
-at: 18/09/2020 16:00
+at: 17/09/2020 16:00
 duration: 90
-peers: 
+peers: Óscar Crespo (D.G. Espacio Público y Actividades en el Ayuntamiento de Logroño) y Jaime Caballero (Concejal de Desarrollo Urbano Sostenible)
 join_url:
 youtube: 
 share_img:/static/share/mas-gente-bicicleta.jpg
