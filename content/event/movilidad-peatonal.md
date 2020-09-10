@@ -2,7 +2,7 @@ title: Mesa debate. Movilidad activa peatonal
 description: Nada como caminar para llegar de un punto a otro. Analizamos la movilidad peatonal en Logroño.
 at: 16/09/2020 9:30
 duration: 90
-peers: 
+peers: Alfonso Sanz (Gea 21, Ana Montalvan (Ciudades que caminan), Fernando Nebot (Viatoben - Primero la Ciudad)
 join_url:
 youtube: 
 share_img:/static/share/mas-gente-bicicleta.jpg
