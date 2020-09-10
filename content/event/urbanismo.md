@@ -1,6 +1,6 @@
 title: Urbanismo. Cómo cambian las ciudades
 description: El antes y el después del urbanismo en Logroño
-at: 11/09/2020 16:00
+at: 18/09/2020 16:00
 duration: 90
 peers: 
 join_url:
