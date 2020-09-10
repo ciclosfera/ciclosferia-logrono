@@ -2,7 +2,7 @@ title: Mesa debate. Transporte urbano colectivo
 description: Analizaremos el transporte colectivo de Logroño
 at: 18/09/2020 11:30
 duration: 90
-peers: 
+peers: Álvaro Fernández (AUVASA), Vicente Urquía (Director de Infraestructuras La Rioja) y Pablo Urzainqui (Norconsult AS).
 join_url:
 youtube: 
 share_img:/static/share/mas-gente-bicicleta.jpg
