@@ -3,7 +3,7 @@ description: Descubre cuál es la biciclta que mejor se adapta a tí en la ciuda
 at: 21/09/2020 16:00
 duration: 60
 peers: Dani Cabezas (Redactor jefe de Ciclosfera) y Rafa Vidiella (Director de Ciclosfera)
-join_url:
+join_url:https://my.demio.com/ref/XNaOBovUp5KR36FI
 youtube: 
 share_img:/static/share/mas-gente-bicicleta.jpg
 ----
