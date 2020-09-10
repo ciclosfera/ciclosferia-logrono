@@ -3,7 +3,7 @@ description: Los itinerarios de Logroño para transporte sostenible
 at: 17/09/2020 16:00
 duration: 90
 peers: Óscar Crespo (D.G. Espacio Público y Actividades en el Ayuntamiento de Logroño) y Jaime Caballero (Concejal de Desarrollo Urbano Sostenible)
-join_url:
+join_url:https://my.demio.com/ref/dQtVC3ZohhPi02OD
 youtube: 
 share_img:/static/share/mas-gente-bicicleta.jpg
 ----
