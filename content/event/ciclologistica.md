@@ -2,7 +2,7 @@ title: Mesa debate. Ciclologística
 description: Los repartos de última milla ya se pueden hacer en bicicleta, ¿sabes como?
 at: 17/09/2020 11:30
 duration: 90
-peers: 
+peers: Eneko Astigarraga (Oraintxe), Daniel Ruiz (Txita), Antonio J. Domínguez (CargoBike).
 join_url:
 youtube: 
 share_img:/static/share/mas-gente-bicicleta.jpg
