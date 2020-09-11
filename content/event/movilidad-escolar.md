@@ -1,12 +1,12 @@
-title: Movilidad escolar
-description: Es el momento de lograr que el uso de la bicicleta aumente en Logroño. ¿Cómo podemos sumar a más gente?
-at: 16/09/2020 18:30
+title: Mesa debate "Movilidad escolar"
+description: El futuro de la movilidad  
+at: 18/09/2020 16:00
 duration: 90
-peers:
+peers:  Pau Avellaneda (Profesor en la UAB sobre Movilidad y Transporte), Javier Cañada, (La Ciclería), Marta Román (GEA 21). Moderador: Julio Rubio (UR)
 join_url:
-youtube:
-share_img:/static/share/mas-gente-bicicleta.jpg
+youtube: 
+
 ----
 ### Sobre qué hablaremos en este evento
 
-Los niños y niñas son el futuro, también en materia de movilidad. En esta mesa de debate analizaremos todo lo que rodea a la movilidad escolar, sus retos y necesidades más urgentes. Porque una ciudad más amable para los niños y niñas es una ciudad mejor para todos.
+Los niños y niñas son el futuro, también en materia de movilidad. En esta mesa de debate analizaremos todo lo que rodea a la movilidad escolar, sus retos y necesidades más urgentes. Porque una ciudad más amable para los niños y niñas es una ciudad mejor para todos. 
