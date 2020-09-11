@@ -3,7 +3,7 @@ description: Nada como caminar para llegar de un punto a otro. Analizamos la mov
 at: 16/09/2020 9:30
 duration: 90
 peers: Alfonso Sanz (Gea 21, Ana Montalvan (Ciudades que caminan), Fernando Nebot (Viatoben - Primero la Ciudad)
-join_url:
+join_url: https://my.demio.com/ref/bDRh6rU9ws2THrTS
 youtube:
 share_img:/static/share/mas-gente-bicicleta.jpg
 ----
