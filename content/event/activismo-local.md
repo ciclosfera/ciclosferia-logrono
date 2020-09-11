@@ -2,7 +2,7 @@ title: Mesa debate. Activismo local
 description: ¿Cómo es la movilidad en Logroño?
 at: 18/09/2020 16:00
 duration: 90
-peers: Julio Romero (Logroño en Bici)
+peers: Julio Romero (Logroño en Bici), Raquel Villar (Ciudades Cuidadas).
 join_url: https://my.demio.com/ref/TPA0E5SrJNYofYRy
 youtube:
 share_img:/static/share/mas-gente-bicicleta.jpg
