@@ -3,7 +3,7 @@ description: ¿Cómo se hacen los repartos dentro de la ciudad de Logroño?
 at: 17/09/2020 9:30
 duration: 90
 peers: Javier Pérez, Susana Val (ZLC), Ángel Sánchez (Revoolt)
-join_url:
+join_url:https://my.demio.com/ref/8hvqINa1mp8JZSEQ
 youtube:
 share_img:/static/share/mas-gente-bicicleta.jpg
 ----
