@@ -2,7 +2,7 @@ title: Mesa debate "Movilidad escolar"
 at: 18/09/2020 13:30
 duration: 30
 peers:  Susana Gómez (DGT)
-join_url:
+join_url: https://my.demio.com/ref/leqUcjbvEcZ1M11R
 youtube: 
 
 ----
