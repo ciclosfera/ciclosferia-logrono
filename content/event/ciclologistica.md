@@ -3,7 +3,7 @@ description: Los repartos de última milla ya se pueden hacer en bicicleta, ¿sa
 at: 17/09/2020 11:30
 duration: 90
 peers: Eneko Astigarraga (Oraintxe), Daniel Ruiz (Txita), Antonio J. Domínguez (CargoBike).
-join_url:
+join_url:https://my.demio.com/ref/r3CSJJoELhF0MKwd
 youtube:
 share_img:/static/share/mas-gente-bicicleta.jpg
 ----
