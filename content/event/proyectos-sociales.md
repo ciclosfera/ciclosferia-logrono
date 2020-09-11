@@ -1,5 +1,4 @@
 title: Mesa debate sobre proyectos sociales ciclistas con presentación de En bici sin edad y Pedalea por la vida.
-description: Proyectos que te van a sorprender
 at: 16/09/2020 18:00
 duration: 90
 peers: Toño Peña (Biciclistas de Corella), Magdalena Pérez (Teléfono de la esperanza, Moderador: David García (Proyecto Hombre).
