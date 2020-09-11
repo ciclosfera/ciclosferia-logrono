@@ -4,7 +4,7 @@
     <title>Sistema público de bicicletas gratuito - Logroño se mueve</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <link rel="stylesheet" href="/static/css/main.css">
+    <link rel="stylesheet" href="/static/css/main.css?v2">
     <noscript><link rel="stylesheet" href="/static/css/noscript.css" /></noscript>
     <link rel="shortcut icon" type="image/png" href="/static/img/icon-red.png"/>
     <meta name="twitter:card" content="summary_large_image"/>
@@ -15,7 +15,7 @@
     <meta property="og:image" content="https://logrono.semueve.org/static/share/mas-gente-bicicleta.jpg"/>
     <meta property="og:locale" content="es_ES"/>
     <meta property="og:type" content="event"/>
-    <meta property="event:start_time" content="2020-09-19T11:00:00Z"/>
+    <meta property="event:start_time" content="2020-09-18T22:00:00Z"/>
     <meta property="fb:app_id" content="3255657914464482"/>
   </head>
   <body class="is-preload">
@@ -52,7 +52,7 @@
             <h2>Sistema público de bicicletas gratuito</h2>
             <p>
               <i class="far fa-calendar"></i> <span id="event-day-name">Sábado</span> <span id="event-day">19</span> de septiembre<br/>
-              <i class="far fa-clock"></i> <span id="event-time">13:00 a 13:40</span>
+              <i class="far fa-clock"></i> <span id="event-time">00:00 a 23:59</span>
             </p>
             <p>Es el momento de lograr que la bicicleta sea el medio de transporte más usado. ¿Cómo podemos sumar a más gente?</p>
           </div>
@@ -62,7 +62,9 @@
             <section>
               <h3>Sobre qué hablaremos en este evento</h3>
 
-<p>Disfruta de manera gratuita del sistema de bicicletas público de Logroño. Si aún no lo has probado, es el momento perfecto para hacerlo. Descubrirás una nueva manera de recorrer tu ciudad. Más rápido, de puerta a puerta y sin contaminar.</p>
+<p>Como ya se hizo durante las semanas posteriores al desconfinamiento, volvemos a ofrecer el uso gratuito de BiciLOG, el sistema de bicicleta compartida de Logroño. </p>
+
+<p>Durante esas semanas la experiencia fue todo un éxito, incrementándose de manera notable tanto el número de usos como la cifra de usuarios. Motivos más que razonables para, durante esta Semana Europea de la Movilidad, repetir la iniciativa, facilitando así el acceso de la ciudadanía a los desplazamientos en bici y estimulando el uso de medios de transporte sostenibles. </p>
 
             </section>
           </div>
@@ -104,7 +106,7 @@
       gtag('config', 'UA-165537393-1');
     </script>
     <script type="application/ld+json">
-      {"@context":"http:\/\/schema.org","@type":"Event","endDate":"2020-09-19T11:40:00Z","location":{"type":"VirtualLocation","url":"https:\/\/logrono.semueve.org\/event\/bicicletas-publicas-sabado\/"},"name":"Sistema público de bicicletas gratuito","startDate":"2020-09-19T11:00:00Z","superEvent":{"@type":"Event","endDate":"2020-09-22","location":{"type":"VirtualLocation","url":"https:\/\/logrono.semueve.org\/"},"name":"Logroño se mueve - Microfestival online por la semana de la movilidad 2020","startDate":"2020-09-16","url":"https:\/\/logrono.semueve.org\/"},"url":"https:\/\/logrono.semueve.org\/event\/bicicletas-publicas-sabado\/"}
+      {"@context":"http:\/\/schema.org","@type":"Event","endDate":"2020-09-19T21:59:00Z","location":{"type":"VirtualLocation","url":"https:\/\/logrono.semueve.org\/event\/bicicletas-publicas-sabado\/"},"name":"Sistema público de bicicletas gratuito","startDate":"2020-09-18T22:00:00Z","superEvent":{"@type":"Event","endDate":"2020-09-22","location":{"type":"VirtualLocation","url":"https:\/\/logrono.semueve.org\/"},"name":"Logroño se mueve - Microfestival online por la semana de la movilidad 2020","startDate":"2020-09-16","url":"https:\/\/logrono.semueve.org\/"},"url":"https:\/\/logrono.semueve.org\/event\/bicicletas-publicas-sabado\/"}
     </script>
     <script>
         function formatTime(date) {
@@ -171,8 +173,8 @@
         }
 
         $(function(){
-            var startDate = new Date(1600513200000);
-            var endDate   = new Date(1600515600000);
+            var startDate = new Date(1600466400000);
+            var endDate   = new Date(1600552740000);
             var days = { 0: "Domingo", 1: "Lunes", 2: "Martes", 3: "Miércoles", 4: "Jueves", 5: "Viernes", 6: "Sábado" };
             $("#event-day-name").html( days[ startDate.getDay() ] );
             $("#event-day").html( startDate.getDate() );
