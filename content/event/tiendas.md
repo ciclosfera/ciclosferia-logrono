@@ -1,7 +1,7 @@
 title: Tiendas. Nuevas oportunidades en la nueva normalidad
 description: ¿Cómo ha sido la reapertura de las tiendas después de la pandemia?
 at: 17/09/2020 16:00
-duration: 75
+duration: 90
 peers: Ángel Hernández (Responsable de Ciclo XXI) e Iván (responsable de Biciván).
 join_url: https://my.demio.com/ref/EJdtctQRHFOH40bJ
 youtube:
