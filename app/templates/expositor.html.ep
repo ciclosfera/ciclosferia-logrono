@@ -77,7 +77,7 @@
       <section id="/sponsors" class="sponsors style4">
           <ul>
           % for my $e ( sort { ($a->{meta}{order}||100) <=> ($b->{meta}{order}||100) } $expositors->@* ) {
-            <li><a href="/expo/<%= $e->{slug} %>/"><img loading="lazy" alt="<%= $e->{meta}{name} %>" src="/static/img/<%= $e->{slug} %>-grey.png"></a></li>
+          <li><a href="<%= $e->{meta}{url} %>"><img loading="lazy" alt="<%= $e->{meta}{name} %>" src="/static/img/<%= $e->{slug} %>.png"></a></li>
           % }
           </ul>
       </section>

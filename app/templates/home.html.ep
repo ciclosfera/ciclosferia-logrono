@@ -134,7 +134,7 @@ Historias, debates, propuestas... El programa de Se Mueve Logroño contará con 
       <section id="/sponsors" class="sponsors style4">
           <ul>
           % for my $e ( sort { ($a->{meta}{order}||100) <=> ($b->{meta}{order}||100) } $expositors->@* ) {
-            <li><a href="<%= $e->{url} %>/"><img loading="lazy" alt="<%= $e->{meta}{name} %>" src="/static/img/<%= $e->{slug} %>.png"></a></li>
+          <li><a href="<%= $e->{meta}{url} %>"><img loading="lazy" alt="<%= $e->{meta}{name} %>" src="/static/img/<%= $e->{slug} %>.png"></a></li>
           % }
           </ul>
       </section>
