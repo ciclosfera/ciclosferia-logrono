@@ -2,7 +2,7 @@ title: Mesa debate. Movilidad ciclista
 description: Es el momento de lograr que el uso de la bicicleta aumente en Logroño. ¿Cómo podemos sumar a más gente?
 at: 16/09/2020 11:30
 duration: 90
-peers: Silvia Carrosán (Oficina de la Bicicleta de  Barcelona), María Elisa Ojeda (Comoba), Iñaki Prieto (Tragsa).
+peers: Silvia Casorrán (Oficina de la Bicicleta de  Barcelona), María Elisa Ojeda (Comoba), Iñaki Prieto (Tragsa).
 join_url:
 youtube: 
 share_img:/static/share/mas-gente-bicicleta.jpg
