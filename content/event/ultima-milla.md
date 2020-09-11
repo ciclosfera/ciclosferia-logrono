@@ -1,7 +1,7 @@
 title: Logística de última milla
 at: 17/09/2020 09:30
 duration: 90
-peers:  Javier Pérez de Isla (Consultoría Logística) Susana Val (ZLC) Ángel Sánchez (Revoolt). Moderador: CETM La Rioja
+peers:  Javier Pérez de Isla (Consultoría Logística) Susana Val (ZLC) Ángel Sánchez (Revoolt). Modera: CETM La Rioja
 join_url:
 youtube: 
 
