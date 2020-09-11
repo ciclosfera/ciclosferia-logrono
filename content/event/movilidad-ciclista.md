@@ -4,7 +4,7 @@ at: 16/09/2020 11:30
 duration: 90
 peers: Silvia Casorrán (Oficina de la Bicicleta de  Barcelona), María Elisa Ojeda (Comoba), Iñaki Prieto (Tragsa).
 join_url:
-youtube: 
+youtube:
 share_img:/static/share/mas-gente-bicicleta.jpg
 ----
 ### Sobre qué hablaremos en este evento

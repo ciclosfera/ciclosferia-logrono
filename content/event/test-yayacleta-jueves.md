@@ -4,7 +4,7 @@ at: 17/09/2020 18:00
 duration: 60
 peers:
 join_url:
-youtube: 
+youtube:
 share_img:/static/share/mas-gente-bicicleta.jpg
 ----
 ### Sobre qué hablaremos en este evento

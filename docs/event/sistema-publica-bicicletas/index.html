@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="/static/css/main.css">
     <noscript><link rel="stylesheet" href="/static/css/noscript.css" /></noscript>
-    <link rel="shortcut icon" type="image/png" href="/static/img/icon-green.png"/>
+    <link rel="shortcut icon" type="image/png" href="/static/img/icon-red.png"/>
     <meta name="twitter:card" content="summary_large_image"/>
     <meta property="og:site_name" content="Logroño se mueve"/>
     <meta property="og:title" content="Sistema público de bicicletas gratuito - Logroño se mueve">
@@ -15,7 +15,7 @@
     <meta property="og:image" content="https://logrono.semueve.org/static/share/mas-gente-bicicleta.jpg"/>
     <meta property="og:locale" content="es_ES"/>
     <meta property="og:type" content="event"/>
-    <meta property="event:start_time" content="2020-09-21T22:00:00Z"/>
+    <meta property="event:start_time" content="2020-09-22T11:00:00Z"/>
     <meta property="fb:app_id" content="3255657914464482"/>
   </head>
   <body class="is-preload">
@@ -43,9 +43,6 @@
       <article id="main">
         <div class="event-head">
           <div class="stream">
-            <div class="video-container" style="display:none;">
-              <iframe src="https://www.youtube.com/embed/ " frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
             <div class="video-placeholder">
               <p><i class="fab fa-youtube"></i></p>
               <p id="starts-in">El streaming no ha comenzado aún...</p>
@@ -55,8 +52,7 @@
             <h2>Sistema público de bicicletas gratuito</h2>
             <p>
               <i class="far fa-calendar"></i> <span id="event-day-name">Martes</span> <span id="event-day">22</span> de septiembre<br/>
-              <i class="far fa-clock"></i> <span id="event-time">00:00 a 23:59</span>
-              <br/><br/><i class="far fa-user"></i>  
+              <i class="far fa-clock"></i> <span id="event-time">13:00 a 13:40</span>
             </p>
             <p>Es el momento de lograr que la bicicleta sea el medio de transporte más usado. ¿Cómo podemos sumar a más gente?</p>
           </div>
@@ -75,6 +71,8 @@
 
       <section id="/sponsors" class="sponsors style4">
           <ul>
+            <li><a href="/"><img loading="lazy" alt="Ibercaja" src="/static/img/ibercaja.png"></a></li>
+            <li><a href="/"><img loading="lazy" alt="Ayuntamiento de logroño" src="/static/img/ayuntamiento-de-logrono.png"></a></li>
           </ul>
       </section>
 
@@ -106,7 +104,7 @@
       gtag('config', 'UA-165537393-1');
     </script>
     <script type="application/ld+json">
-      {"@context":"http:\/\/schema.org","@type":"Event","endDate":"2020-09-22T21:59:00Z","location":{"type":"VirtualLocation","url":"https:\/\/logrono.semueve.org\/event\/sistema-publica-bicicletas\/"},"name":"Sistema público de bicicletas gratuito","startDate":"2020-09-21T22:00:00Z","superEvent":{"@type":"Event","endDate":"2020-09-22","location":{"type":"VirtualLocation","url":"https:\/\/logrono.semueve.org\/"},"name":"Logroño se mueve - Microfestival online por la semana de la movilidad 2020","startDate":"2020-09-16","url":"https:\/\/logrono.semueve.org\/"},"url":"https:\/\/logrono.semueve.org\/event\/sistema-publica-bicicletas\/"}
+      {"@context":"http:\/\/schema.org","@type":"Event","endDate":"2020-09-22T11:40:00Z","location":{"type":"VirtualLocation","url":"https:\/\/logrono.semueve.org\/event\/sistema-publica-bicicletas\/"},"name":"Sistema público de bicicletas gratuito","startDate":"2020-09-22T11:00:00Z","superEvent":{"@type":"Event","endDate":"2020-09-22","location":{"type":"VirtualLocation","url":"https:\/\/logrono.semueve.org\/"},"name":"Logroño se mueve - Microfestival online por la semana de la movilidad 2020","startDate":"2020-09-16","url":"https:\/\/logrono.semueve.org\/"},"url":"https:\/\/logrono.semueve.org\/event\/sistema-publica-bicicletas\/"}
     </script>
     <script>
         function formatTime(date) {
@@ -173,8 +171,8 @@
         }
 
         $(function(){
-            var startDate = new Date(1600725600000);
-            var endDate   = new Date(1600811940000);
+            var startDate = new Date(1600772400000);
+            var endDate   = new Date(1600774800000);
             var days = { 0: "Domingo", 1: "Lunes", 2: "Martes", 3: "Miércoles", 4: "Jueves", 5: "Viernes", 6: "Sábado" };
             $("#event-day-name").html( days[ startDate.getDay() ] );
             $("#event-day").html( startDate.getDate() );

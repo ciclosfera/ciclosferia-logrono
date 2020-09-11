@@ -4,7 +4,7 @@ at: 18/09/2020 11:30
 duration: 90
 peers: Álvaro Fernández (AUVASA), Vicente Urquía (Director de Infraestructuras La Rioja) y Pablo Urzainqui (Norconsult AS).
 join_url:
-youtube: 
+youtube:
 share_img:/static/share/mas-gente-bicicleta.jpg
 ----
 ### Sobre qué hablaremos en este evento

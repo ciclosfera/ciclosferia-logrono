@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= $meta->{name} %> - Logroño se mueve</title>
+    <title>Ibercaja - Logroño se mueve</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="/static/css/main.css">
@@ -9,10 +9,10 @@
     <link rel="shortcut icon" type="image/png" href="/static/img/icon-red.png"/>
     <meta name="twitter:card" content="summary_large_image"/>
     <meta property="og:site_name" content="Logroño se mueve"/>
-    <meta property="og:title" content="<%= $meta->{name} %> - Logroño se mueve"/>
-    <meta property="og:url" content="https://logrono.semueve.org/expo/<%= $slug %>/"/>
-    <meta property="og:description" content="<%= $meta->{description} %>"/>
-    <meta property="og:image" content="https://logrono.semueve.org<%= $meta->{share_img} || "/static/img/$slug.png" %>"/>
+    <meta property="og:title" content="Ibercaja - Logroño se mueve"/>
+    <meta property="og:url" content="https://logrono.semueve.org/expo/ibercaja/"/>
+    <meta property="og:description" content=""/>
+    <meta property="og:image" content="https://logrono.semueve.org/static/img/ibercaja.png"/>
     <meta property="og:locale" content="es_ES"/>
     <meta property="fb:app_id" content="3255657914464482"/>
   </head>
@@ -41,34 +41,16 @@
 
       <article id="main">
         <header class="brand">
-          <p><img src="/static/img/<%= $meta->{logo} %>" alt="<%= $meta->{name} %>"></p>
-          <p><a href="<%= $meta->{url} %>"><%== $meta->{url} %></a></p>
+          <p><img src="/static/img/ibercaja.png" alt="Ibercaja"></p>
+          <p><a href="https://www.ibercaja.es/">https://www.ibercaja.es/</a></p>
         </header>
         <section class="wrapper style5">
           <div class="inner">
             <section class="expositor">
-              <%= $body %>
-              % if ( $products->@* ) {
-              <div class="products">
-                <ul class="<%= $slug %>">
-                % for my $p ( $products->@* ) {
-                  % $p->{slug} = lc($p->{name});
-                  % $p->{slug} =~ s/[^a-z0-9]+/-/g;
-                  <li>
-                    <img src="/static/expo/<%= $slug %>/<%= $p->{slug} %>.jpg" loading="lazy" alt="<%= $p->{name} %>" />
-                    <h4><%= $p->{name} %></h4>
-                    <p><%= $p->{description} %></p>
-                    <a class="button icon solid fa-external-link-alt" href="<%= $p->{url} %>"> Ver más </a>
-                  </li>
-                % }
-                </ul>
-              </div>
-              % }
-              % if ( my $email = $meta->{contact} ) {
-              <div class="ask">
-                <a class="button primary icon solid fa-comments" href="mailto:<%= $email %>?subject=Contacto%20desde%20Ciclosferia"> ¡Pregúntale a la marca! </a>
-              </div>
-              % }
+              <h3>Ibercaja</h3>
+
+<p>Texto de prueba</p>
+
             </section>
           </div>
         </section>
@@ -76,9 +58,8 @@
 
       <section id="/sponsors" class="sponsors style4">
           <ul>
-          % for my $e ( sort { ($a->{meta}{order}||100) <=> ($b->{meta}{order}||100) } $expositors->@* ) {
-            <li><a href="/expo/<%= $e->{slug} %>/"><img loading="lazy" alt="<%= $e->{meta}{name} %>" src="/static/img/<%= $e->{slug} %>-grey.png"></a></li>
-          % }
+            <li><a href="/expo/ibercaja/"><img loading="lazy" alt="Ibercaja" src="/static/img/ibercaja-grey.png"></a></li>
+            <li><a href="/expo/ayuntamiento-de-logrono/"><img loading="lazy" alt="Ayuntamiento de logroño" src="/static/img/ayuntamiento-de-logrono-grey.png"></a></li>
           </ul>
       </section>
 
@@ -109,21 +90,8 @@
       gtag('js', new Date());
       gtag('config', 'UA-165537393-1');
     </script>
-    % if ( my $img = $meta->{background} ) {
-    <style>
-    #main > header.brand {
-      background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/static/img/<%= $img %>");
-    }
-    </style>
-    % }
     <script type="application/ld+json">
-      <%= to_json({
-        '@context' => "http://schema.org",
-        '@type'    => "Brand",
-        name       => $meta->{name},
-        logo       => "https://logrono.semueve.org/static/img/$meta->{logo}",
-        url        => $meta->{url}
-      }) %>
+      {"@context":"http:\/\/schema.org","@type":"Brand","logo":"https:\/\/logrono.semueve.org\/static\/img\/ibercaja.png","name":"Ibercaja","url":"https:\/\/www.ibercaja.es\/"}
     </script>
   </body>
 </html>

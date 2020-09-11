@@ -4,7 +4,7 @@ at: 16/09/2020 9:30
 duration: 90
 peers: Alfonso Sanz (Gea 21, Ana Montalvan (Ciudades que caminan), Fernando Nebot (Viatoben - Primero la Ciudad)
 join_url:
-youtube: 
+youtube:
 share_img:/static/share/mas-gente-bicicleta.jpg
 ----
 ### Sobre qué hablaremos en este evento

@@ -4,7 +4,7 @@ at: 18/09/2020 16:00
 duration: 90
 peers: Julio Romero (Logroño en Bici)
 join_url: https://my.demio.com/ref/TPA0E5SrJNYofYRy
-youtube: 
+youtube:
 share_img:/static/share/mas-gente-bicicleta.jpg
 ----
 ### Sobre qué hablaremos en este evento

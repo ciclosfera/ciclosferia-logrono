@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="/static/css/main.css">
     <noscript><link rel="stylesheet" href="/static/css/noscript.css" /></noscript>
-    <link rel="shortcut icon" type="image/png" href="/static/img/icon-green.png"/>
+    <link rel="shortcut icon" type="image/png" href="/static/img/icon-red.png"/>
     <meta name="twitter:card" content="summary_large_image"/>
     <meta property="og:site_name" content="Logroño se mueve"/>
     <meta property="og:title" content="<%= $meta->{title} %> - Logroño se mueve"/>
@@ -55,7 +55,7 @@
       <section id="/sponsors" class="sponsors style4">
           <ul>
           % for my $e ( sort { ($a->{meta}{order}||100) <=> ($b->{meta}{order}||100) } $expositors->@* ) {
-          <li><a href="/expo/<%= $e->{slug} %>/"><img loading="lazy" alt="<%= $e->{meta}{name} %>" src="/static/img/<%= $e->{slug} %>-grey.png"></a></li>
+            <li><a href="<%= $e->{url} %>/"><img loading="lazy" alt="<%= $e->{meta}{name} %>" src="/static/img/<%= $e->{slug} %>.png"></a></li>
           % }
           </ul>
       </section>
