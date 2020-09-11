@@ -3,7 +3,7 @@ description: Analizaremos el transporte colectivo de Logroño
 at: 18/09/2020 11:30
 duration: 90
 peers: Álvaro Fernández (AUVASA), Vicente Urquía (Director de Infraestructuras La Rioja) y Pablo Urzainqui (Norconsult AS).
-join_url:
+join_url:https://my.demio.com/ref/dqB5HWkaMEJh7Xds
 youtube:
 share_img:/static/share/mas-gente-bicicleta.jpg
 ----
