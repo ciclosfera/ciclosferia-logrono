@@ -3,7 +3,7 @@ description:¿Complementas más de un medio de transporte para moverte por la ci
 at: 18/09/2020 9:30
 duration: 90
 peers: Valentín Alegría (RENFE), Guillermo Campoamor (MEEP) y Jose Alberto Calvo (ADIF)
-join_url:
+join_url:https://my.demio.com/ref/Ac9mrnSp0H18sm74
 youtube:
 share_img:/static/share/mas-gente-bicicleta.jpg
 ----
