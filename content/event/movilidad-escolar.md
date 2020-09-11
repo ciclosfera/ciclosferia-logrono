@@ -1,0 +1,1 @@
+Los niños y niñas son el futuro, también en materia de movilidad. En esta mesa de debate analizaremos todo lo que rodea a la movilidad escolar, sus retos y necesidades más urgentes. Porque una ciudad más amable para los niños y niñas es una ciudad mejor para todos.
