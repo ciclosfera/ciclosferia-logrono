@@ -1,7 +1,7 @@
 title: Sistema público de bicicletas gratuito
 description: Es el momento de lograr que la bicicleta sea el medio de transporte más usado. ¿Cómo podemos sumar a más gente?
 at: 20/09/2020 00:00
-duration: 1.350
+duration: 1359
 peers: 
 join_url:
 youtube: 
