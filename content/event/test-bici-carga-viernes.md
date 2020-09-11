@@ -1,6 +1,6 @@
 title: Test de bicicletas de carga
 description: Prueba de bicicletas de carga, ¡atrévete!.
-at: 17/09/2020 18:30
+at: 18/09/2020 18:30
 duration: 120
 peers:
 join_url:
