@@ -2,7 +2,7 @@ title: Mesa debate "Movilidad escolar"
 description: El futuro de la movilidad  
 at: 18/09/2020 16:00
 duration: 90
-peers:  Pau Avellaneda (Profesor en la UAB sobre Movilidad y Transporte), Javier Cañada, (La Ciclería), Marta Román (GEA 21). Moderador: Julio Rubio (UR)
+peers:  Pau Avellaneda (Profesor en la UAB sobre Movilidad y Transporte), Javier Cañada (La Ciclería), Marta Román (GEA 21). Moderador: Julio Rubio (UR)
 join_url:
 youtube: 
 
