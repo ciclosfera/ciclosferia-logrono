@@ -1,7 +1,7 @@
 name: Ayuntamiento de logroño
 url: http://www.logroño.es
 logo: ayuntamiento-de-logrono.png
-order: 2
+order: 1
 ----
 ### Ayuntamiento de Logroño
 
