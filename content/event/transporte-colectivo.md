@@ -2,7 +2,7 @@ title: Mesa debate. Transporte urbano colectivo
 description: Analizaremos el transporte colectivo de Logroño
 at: 18/09/2020 11:30
 duration: 90
-peers: Álvaro Fernández (AUVASA), Vicente Urquía (Metropolitano) y Pablo Urzainqui (Consultor en planificación de transportes). Modera: Marta Rodríguez (TVR).
+peers: Álvaro Fernández (AUVASA), Vicente Urquía (Director de Infraestructuras de La Rioja) y Pablo Urzainqui (Consultor en planificación de transportes). Modera: Marta Rodríguez (TVR).
 join_url:https://my.demio.com/ref/dqB5HWkaMEJh7Xds
 youtube:
 share_img:/static/share/mas-gente-bicicleta.jpg
