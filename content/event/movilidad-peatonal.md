@@ -4,7 +4,7 @@ at: 16/09/2020 9:30
 duration: 90
 peers: Alfonso Sanz (GEA 21), Ana Montalbán (Ciudades que caminan), Fernando Nebot (Viatoben - Primero la Ciudad). Modera: Álvaro Foncea (Ciudades Cuidadas).
 join_url: https://my.demio.com/ref/bDRh6rU9ws2THrTS
-youtube:
+youtube:QrLwYJObFWQ
 share_img:/static/share/mas-gente-bicicleta.jpg
 ----
 ### Sobre qué hablaremos en este evento
