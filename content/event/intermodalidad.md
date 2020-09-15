@@ -4,7 +4,7 @@ at: 18/09/2020 9:30
 duration: 90
 peers: Valentín Alegría (RENFE) y Guillermo Campoamor (MEEP). Modera: Fernando Nebot (Viatoben).
 join_url:https://my.demio.com/ref/Ac9mrnSp0H18sm74
-youtube:
+youtube:5Xgx4rqphCE
 share_img:/static/share/mas-gente-bicicleta.jpg
 ----
 ### Sobre qué hablaremos en este evento
