@@ -9,4 +9,4 @@ share_img:/static/share/mas-gente-bicicleta.jpg
 ----
 ### Sobre qué hablaremos en este evento
 
-Hoy, para clausurar la semana de la movilidad sostenible, podrás moverte por los municipios del árema metropolitana de Logroño manera gratuita.
+Hoy, para clausurar la semana de la movilidad sostenible, podrás moverte por los municipios del área metropolitana de Logroño manera gratuita.
