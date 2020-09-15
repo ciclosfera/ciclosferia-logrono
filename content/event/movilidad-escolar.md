@@ -3,7 +3,7 @@ at: 16/09/2020 16:00
 duration: 90
 peers:  Pau Avellaneda (UAB y Post Car City), Javier Cañada (La Ciclería), Marta Román (GEA 21). Moderador: Julio Rubio (UR)
 join_url:https://my.demio.com/ref/WlbniatwSbGXgW2A
-youtube: 
+youtube:oUnVHin12Zg 
 
 ----
 ### Sobre qué hablaremos en este evento
