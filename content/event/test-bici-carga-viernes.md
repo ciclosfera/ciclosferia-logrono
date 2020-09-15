@@ -13,4 +13,6 @@ share_img:/static/share/mas-gente-bicicleta.jpg
 
 ¿Has probado alguna vez una bicicleta de carga? Son más grandes, especiales podrñiamos decir y parecen difíciles de manejar, pero... ¿es realmente así? Pruébalo tú mismo.
 
-Una vez que la pruebes serás capaz de entender y ponerte en la piel de los ciclomensajeros que recorren las ciudades con mercancías para llevarlos a la puerta de casa.
+Una vez que la pruebes serás capaz de entender y ponerte en la piel de los ciclomensajeros que recorren las ciudades con mercancías para llevarlos a la puerta de casa. 
+
+El test tendrá lugar en la Plaza del Ayuntamiento. 
