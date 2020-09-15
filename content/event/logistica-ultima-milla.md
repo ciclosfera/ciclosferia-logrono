@@ -4,7 +4,7 @@ at: 17/09/2020 9:30
 duration: 90
 peers: Javier Pérez, Susana Val (ZLC), Ángel Sánchez (Revoolt)
 join_url:https://my.demio.com/ref/8hvqINa1mp8JZSEQ
-youtube:
+youtube:PK33lBe8UgM 
 share_img:/static/share/mas-gente-bicicleta.jpg
 ----
 ### Sobre qué hablaremos en este evento
