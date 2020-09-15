@@ -3,6 +3,7 @@ at: 16/09/2020 18:00
 duration: 90
 peers: Toño Peña (Biciclistas de Corella), Magdalena Pérez (Teléfono de la esperanza). Modera: David García (Proyecto Hombre).
 join_url: https://my.demio.com/ref/iNcdHek2xm3fEHjh
+youtube:iBiDvjJSVvU
 
 ----
 ### Sobre qué hablaremos en este evento
