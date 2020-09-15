@@ -4,7 +4,7 @@ at: 16/09/2020 11:30
 duration: 90
 peers: Silvia Casorrán (Oficina de la Bicicleta de  Barcelona), Belén Calahorro (Coordinadora en la Agencia Municipal de la Bicicleta del Ayuntamiento de Valencia), Iñaki Prieto (Alcaldía de la bicicleta en Madrid-Tragsa). Modera: Álex Dorado (Consejero de sostenibilidad y transición ecológica de La Rioja).
 join_url: https://my.demio.com/ref/PBtCvhzqmBU7pe3P
-youtube:
+youtube:zMcWodYCx8k
 share_img:/static/share/mas-gente-bicicleta.jpg
 ----
 ### Sobre qué hablaremos en este evento
