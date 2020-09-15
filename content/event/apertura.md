@@ -2,7 +2,7 @@ title: Apertura de la Semana de Movilidad
 description: Esto está a punto de empezar...
 at: 16/09/2020 09:00
 duration: 30
-peers: Pablo Hermoso (Alcalde de Logroño) y Jaime Armengol (Mobility City)
+peers: Pablo Hermoso de Mendoza (Alcalde de Logroño) y Jaime Armengol (Mobility City)
 join_url:https://my.demio.com/ref/vQGCu2QhLVdACjPC
 youtube:8mAIx3qUlEI
 share_img:/static/share/mas-gente-bicicleta.jpg
