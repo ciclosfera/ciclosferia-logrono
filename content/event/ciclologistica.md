@@ -4,7 +4,7 @@ at: 17/09/2020 11:30
 duration: 90
 peers: Eneko Astigarraga (Oraintxe), Daniel Ruiz (Txita), Antonio J. Domínguez (CargoBike). Modera: Pablo Álvarez (Diario La Rioja).
 join_url:https://my.demio.com/ref/r3CSJJoELhF0MKwd
-youtube:
+youtube:6GOE7TkWRrA
 share_img:/static/share/mas-gente-bicicleta.jpg
 ----
 ### Sobre qué hablaremos en este evento
