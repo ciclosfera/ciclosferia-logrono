@@ -3,7 +3,7 @@ at: 18/09/2020 13:30
 duration: 30
 peers:  Susana Gómez (Subdirectora adjunta de vehículos de la DGT) y Beatriz Zúñiga (Jefa Provincial de Tráfico de la Rioja).
 join_url: https://my.demio.com/ref/leqUcjbvEcZ1M11R
-youtube: 
+youtube:B68WgwTFNQ4
 
 ----
 ### Sobre qué hablaremos en este evento
