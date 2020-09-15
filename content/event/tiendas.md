@@ -2,9 +2,9 @@ title: Tiendas. Nuevas oportunidades en la nueva normalidad
 description: ¿Cómo ha sido la reapertura de las tiendas después de la pandemia?
 at: 17/09/2020 16:00
 duration: 90
-peers: Ángel Hernández (Responsable de Ciclo XXI) e Iván (responsable de Biciván). Modera: Dani Cabezas (Ciclosfera).
+peers: Ángel Hernández (Responsable de Ciclo XXI) e Iván Martínez (responsable de Biciván). Modera: Dani Cabezas (Ciclosfera).
 join_url: https://my.demio.com/ref/EJdtctQRHFOH40bJ
-youtube:
+youtube:FWuiyYLMCT0
 share_img:/static/share/mas-gente-bicicleta.jpg
 ----
 ### Sobre qué hablaremos en este evento
