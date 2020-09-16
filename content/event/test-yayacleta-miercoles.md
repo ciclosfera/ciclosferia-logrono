@@ -1,4 +1,4 @@
-title: Test de yayacleta y bicicletas de carga
+title: Test de yayacleta y bicicletas de carga en la plaza del ayuntamiento
 description: Prueba de bicicletas para las personas mayores y bicicletas de carga.
 at: 16/09/2020 19:00
 duration: 90
