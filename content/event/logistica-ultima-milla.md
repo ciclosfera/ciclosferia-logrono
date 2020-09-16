@@ -2,7 +2,7 @@ title: Mesa debate. Logística de última milla
 description: ¿Cómo se hacen los repartos dentro de la ciudad de Logroño?
 at: 17/09/2020 9:30
 duration: 90
-peers: Javier Pérez, Susana Val (ZLC), Ángel Sánchez (Revoolt)
+peers: Javier Pérez, Susana Val (ZLC), Ángel Sánchez (Revoolt). Modera: Javier Cámarq (CETM La Rioja).
 join_url:https://my.demio.com/ref/8hvqINa1mp8JZSEQ
 youtube:PK33lBe8UgM 
 share_img:/static/share/mas-gente-bicicleta.jpg
