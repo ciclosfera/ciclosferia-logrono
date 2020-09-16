@@ -1,4 +1,4 @@
-title: Test de bicicletas de carga
+title: Test de bicicletas de carga en la plaza del ayuntamiento
 description: Prueba de bicicletas de carga, ¡atrévete!.
 at: 18/09/2020 18:30
 duration: 120
