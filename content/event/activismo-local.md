@@ -2,7 +2,7 @@ title: Mesa debate. Activismo local
 description: ¿Cómo es la movilidad en Logroño?
 at: 18/09/2020 16:00
 duration: 90
-peers: Julio Romero (Logroño en Bici), Raquel Villar (Asociación Vecial San José), Miguel Ángel Casero y Chema Fernández (Asociación de vecinos Madre de Dios). Modera: Dani Cabezas (Ciclosfera).
+peers: Julio Romero (Logroño en Bici), Raquel Villar (Asociación Vecial San José), Chema Fernández (Asociación vecinal Madre de Dios) y Miguel Ángel Casero. Modera: Dani Cabezas (Ciclosfera).
 join_url: https://my.demio.com/ref/TPA0E5SrJNYofYRy
 youtube:lsAgvcp9fNQ
 share_img:/static/share/mas-gente-bicicleta.jpg
